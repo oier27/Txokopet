@@ -29,71 +29,93 @@ article, aside, details, figcaption, figure,
 footer, header, hgroup, menu, nav, section {
 	display: block;}
 
-#fotoInicio{
-	height: 80%;
-	width: 80%;
-} 
 
 #map {
-	margin: auto;
-	width: 75%;
+	text-align: center;
+}
+
+#txokomatch {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	margin-top: 2%;
+	width: 25%;
+	height: 20%;
 }
 
 #botonCardId1{
-	margin-top: 70px;
+	margin-top: -2.7%;
+	margin-bottom:5%;
 }
 
 #botonCardId2{
-	margin-top: 35px;
+	margin-top: -15%;
+	margin-bottom:5%;
 }
 
 #botonCardId3{
-	margin-top: 30px;
+	margin-bottom:5%;
 }
 
 #botonCardId4{
-	margin-top: 30px;
+	margin-top: -11%;
+	margin-bottom:5%;
 }
 
 #botonCardId5{
-	margin-top: 30px;
+	margin-bottom:5%;
 }
 
 #botonCardId6{
-	margin-top: 65px;
+	margin-bottom:5%;
 }
 
 #botonCardId7{
-	margin-top: 67px;
+	margin-bottom:5%;
 }
 
 #botonCardId8{
-	margin-top: 30px;
+	margin-bottom:5%;
 }
 
 .botonCard {
 	background-color: #657FF0;
 	border-radius: 5px;
-	align-items: center;
+	display: flex;
+    justify-content: center;
+    align-items: center;
 }
-.card {
-	margin-left: 12%;
-	margin-top: 10%;
+.card-left {
 	background: linear-gradient(#F4F4F4, #14440E);
-	height: 550px;
+	height: auto;
+	width: 40%;
 	border-radius: 3%;
+	float: left;
+	border: 3px solid black;
+	margin-left: 5%;
+	margin-top: 10%;
+}
+
+.card-right {
+	background: linear-gradient(#F4F4F4, #14440E);
+	height: auto;
+	width: 40%;
+	border-radius: 3%;
+	border: 3px solid black;
+	margin-left: 15%;
+	margin-top: 10%;
 }
 
 .card2 {
 	height: auto;
-
+	width: auto;
 }
 
 .card-img-top {
-	width: 250px;
-	height: 200px;
+	width: 85%;
+	height: 45%;
 	border-radius: 5%;
-	margin-left: -2.5%;
+	margin-left: 3%;
 }
 
 .card-img-top:hover {
@@ -101,10 +123,10 @@ footer, header, hgroup, menu, nav, section {
 }
 
 .card-img-top-gato {
-	width: 250px;
-	height: 200px;
+	width: 85%;
+	height: 45%;
 	border-radius: 5%;
-	margin-left: -2.5%;
+	margin-left: 3%;
 }
 
 .card-img-top-gato:hover {
@@ -115,7 +137,7 @@ footer, header, hgroup, menu, nav, section {
 	display: block;
   	margin-left: auto;
   	margin-right: auto;
-	margin-top: 20px;
+	margin-top: 2%;
 	width: 250px;
 	height: 150px;
 	border-radius: 2%;
@@ -128,7 +150,7 @@ footer, header, hgroup, menu, nav, section {
 
 .card-title2{
 	text-align: center;
-	margin-top: 20px;
+	margin-top: 3%;
 }
 
 .card-text {
